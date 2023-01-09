@@ -1,0 +1,30 @@
+{
+  "components": [
+    {
+      "text": "# Please insert the set Date as discussed with the tenant",
+      "type": "text",
+      "id": "Field_1t0c7ii"
+    },
+    {
+      "label": "What date was set, including the time?",
+      "type": "textfield",
+      "id": "Field_19ktzdc",
+      "key": "setDate",
+      "validate": {
+        "required": true,
+        "minLength": 17,
+        "maxLength": 17
+      },
+      "description": "Format: hh:mm, dd.mm.yyyy"
+    }
+  ],
+  "schemaVersion": 5,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "a442b24"
+  },
+  "type": "default",
+  "id": "Form_SetDateWithTenant",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.1.0"
+}

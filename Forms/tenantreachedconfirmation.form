@@ -1,0 +1,37 @@
+{
+  "components": [
+    {
+      "text": "# Could the tenant be reached via phone?",
+      "type": "text",
+      "id": "Field_1y7xwsj"
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "confirmation_positive"
+        },
+        {
+          "label": "No",
+          "value": "confirmation_negative"
+        }
+      ],
+      "label": "Reached?",
+      "type": "radio",
+      "id": "Field_0upot6j",
+      "key": "reached",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "schemaVersion": 5,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "a442b24"
+  },
+  "type": "default",
+  "id": "Form_TenantReachedConfirmation",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.1.0"
+}

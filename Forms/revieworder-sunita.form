@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "text": "# Please perform the following work on given place and time",
+      "type": "text",
+      "id": "Field_0mqarjf"
+    },
+    {
+      "label": "Date",
+      "type": "textfield",
+      "id": "Field_0hygfpj",
+      "key": "setDate",
+      "disabled": true
+    },
+    {
+      "label": "Type of work",
+      "type": "textfield",
+      "id": "Field_0c76okk",
+      "key": "work_type",
+      "disabled": true,
+      "defaultValue": "Leak Detection"
+    },
+    {
+      "label": "Name?",
+      "type": "textfield",
+      "id": "Field_14l3g36",
+      "key": "setName",
+      "description": "Format: Surname, Name",
+      "validate": {
+        "required": false
+      },
+      "disabled": true
+    },
+    {
+      "label": "Address?",
+      "type": "textfield",
+      "id": "Field_0hk0afg",
+      "key": "setAddress",
+      "description": "Format: PLZ, Street, Number",
+      "validate": {
+        "required": false
+      },
+      "disabled": true
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "dc_yes"
+        },
+        {
+          "label": "No",
+          "value": "dc_no"
+        }
+      ],
+      "label": "Complete?",
+      "type": "radio",
+      "id": "Field_1rpmd05",
+      "key": "data_complete",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "schemaVersion": 5,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "b82f70e"
+  },
+  "type": "default",
+  "id": "Form_ReviewOrder",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.1.0"
+}

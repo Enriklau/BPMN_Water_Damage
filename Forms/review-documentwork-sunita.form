@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "text": "# Please review the following work documentation",
+      "type": "text",
+      "id": "Field_0mqarjf"
+    },
+    {
+      "label": "Date",
+      "type": "textfield",
+      "id": "Field_0hygfpj",
+      "key": "setDate",
+      "disabled": true
+    },
+    {
+      "label": "Type of work",
+      "type": "textfield",
+      "id": "Field_182592m",
+      "key": "work_type",
+      "disabled": true,
+      "defaultValue": "Leak Detection"
+    },
+    {
+      "label": "Name?",
+      "type": "textfield",
+      "id": "Field_14l3g36",
+      "key": "setName",
+      "description": "Format: Surname, Name",
+      "validate": {
+        "required": false
+      },
+      "disabled": true
+    },
+    {
+      "label": "Address?",
+      "type": "textfield",
+      "id": "Field_0hk0afg",
+      "key": "setAddress",
+      "description": "Format: PLZ, Street, Number",
+      "validate": {
+        "required": false
+      },
+      "disabled": true
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "complete"
+        },
+        {
+          "label": "No",
+          "value": "not_complete"
+        }
+      ],
+      "label": "Work completed?",
+      "type": "radio",
+      "id": "Field_1hbvg5i",
+      "key": "workcomplete",
+      "validate": {
+        "required": false
+      },
+      "description": "For Leak Detection Work: if leak couldn't be found, put in \"No\"",
+      "disabled": true
+    },
+    {
+      "label": "Comment Worker",
+      "type": "textfield",
+      "id": "Field_1tfkkmq",
+      "key": "comment_work",
+      "description": "Tools, Ressources used, addtional address for leak detection, etc.",
+      "disabled": true
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "doc_yes"
+        },
+        {
+          "label": "No",
+          "value": "doc_no"
+        }
+      ],
+      "label": "Documentation complete?",
+      "type": "radio",
+      "id": "Field_13rtcil",
+      "key": "doc_complete",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "schemaVersion": 5,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "b82f70e"
+  },
+  "type": "default",
+  "id": "Form_Review_DocumentWork",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.1.0"
+}

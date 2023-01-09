@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "text": "# Enter type of work, name and address you like to order for the following date",
+      "type": "text",
+      "id": "Field_0mqarjf"
+    },
+    {
+      "label": "Date",
+      "type": "textfield",
+      "id": "Field_0hygfpj",
+      "key": "setDate",
+      "disabled": true
+    },
+    {
+      "label": "Type of Work",
+      "type": "textfield",
+      "id": "Field_158kzik",
+      "key": "work_type",
+      "defaultValue": "Leak Detection",
+      "disabled": true
+    },
+    {
+      "label": "Name?",
+      "type": "textfield",
+      "id": "Field_14l3g36",
+      "key": "setName",
+      "description": "Format: Surname, Name",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Address?",
+      "type": "textfield",
+      "id": "Field_0hk0afg",
+      "key": "setAddress",
+      "description": "Format: PLZ, Street, Number",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "schemaVersion": 5,
+  "exporter": {
+    "name": "Camunda Web Modeler",
+    "version": "b82f70e"
+  },
+  "type": "default",
+  "id": "Form_OrderWork",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.1.0"
+}
